@@ -49,11 +49,12 @@ nav a{
     text-decoration: none;
     border: 2px solid rgb(131 255 131);
     letter-spacing:1px;
-    transition: color 1s,border 0.3s ease-out,all 0.5s;
+    transition: color 1s,border 0.3s ease-out,padding 0.5s;
 }
 .nav-links a:hover{
     color: rgb(131 255 131);
     border-bottom-width: 10px;
+    padding-bottom:0.5px;
 }
 
 
@@ -189,7 +190,7 @@ position: relative;
     position: relative;
     background-color: black;
     padding: 35px 0;
-    border: 10px solid rgb(56, 56, 56);
+    border: 10px solid rgb(199, 194, 194);
     border-radius: 10px;
     margin-bottom: 30px;
 }
